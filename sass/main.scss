@@ -1,6 +1,4 @@
 @use './colors' as *;
-@use './animations' as *;
-
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -52,7 +50,7 @@ nav {
 	.alert-img {
 		width: 50px;
 		height: 50px;
-		background-image: url(/img/alarm-light-blue.png);
+		background-image: url('../img/alarm-light-blue.png');
 		background-position: center;
 		background-size: cover;
 		margin-right: 10px;
@@ -183,17 +181,17 @@ footer {
 @keyframes light {
 	0% {
 		opacity: 1;
-		background-image: url(/img/alarm-light-blue.png);
+		background-image: url('../img/alarm-light-blue.png');
 	}
 
 	50% {
 		opacity: 1;
-		background-image: url(/img/alarm-light-red.png);
+		background-image: url('../img/alarm-light-red.png');
 	}
 
 	100% {
 		opacity: 1;
-		background-image: url(/img/alarm-light-blue.png);
+		background-image: url('../img/alarm-light-blue.png');
 	}
 }
 @media (max-width: 576px) {
